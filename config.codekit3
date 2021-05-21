@@ -404,6 +404,7 @@
       "sC" : 3,
       "tS" : 0
     },
+<<<<<<< Updated upstream
     "\/design\/wireframe UI.sketch" : {
       "cB" : 0,
       "ft" : 8192,
@@ -420,6 +421,8 @@
       "oAP" : "\/dev\/content\/_adventure.html",
       "oF" : 0
     },
+=======
+>>>>>>> Stashed changes
     "\/dev\/content\/_adventure.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -427,6 +430,14 @@
       "oA" : 0,
       "oAP" : "\/dev\/content\/_adventure.html",
       "oF" : 1
+    },
+    "\/dev\/content\/_callout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_callout.html",
+      "oF" : 0
     },
     "\/dev\/content\/_callout.kit" : {
       "cB" : 0,
@@ -468,6 +479,14 @@
       "oAP" : "\/dev\/content\/_footer.html",
       "oF" : 1
     },
+    "\/dev\/content\/_header.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_header.html",
+      "oF" : 0
+    },
     "\/dev\/content\/_header.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -500,6 +519,14 @@
       "oAP" : "\/dev\/content\/_nav.html",
       "oF" : 1
     },
+    "\/dev\/content\/_wildlife.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_wildlife.html",
+      "oF" : 0
+    },
     "\/dev\/content\/_wildlife.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -507,6 +534,14 @@
       "oA" : 0,
       "oAP" : "\/dev\/content\/_wildlife.html",
       "oF" : 1
+    },
+    "\/dev\/global\/head.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/head.html",
+      "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
@@ -542,6 +577,18 @@
       "oF" : 3,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/scss\/base\/_base.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/base\/_base-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
@@ -627,6 +674,79 @@
       "pg" : 0,
       "sct" : 0
     },
+<<<<<<< Updated upstream
+=======
+    "\/dev\/scss\/content\/adventure.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/adventure.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/callout.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/callout.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/nav.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/nav.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/wildlife.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/wildlife.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+>>>>>>> Stashed changes
     "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -640,6 +760,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/scss\/helpers\/_variables.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/helpers\/_variables-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/helpers\/_variables.scss" : {
       "aP" : 0,

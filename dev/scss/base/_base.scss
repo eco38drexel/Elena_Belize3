@@ -14,3 +14,73 @@ ul {
 		list-style: none;
 	}
 }
+
+	main {
+		display: grid;
+		grid-template-areas: 
+		"header"
+		"nav"
+		"wildlife"
+		"callout"
+		"adventure"
+		"health"
+		"culture"
+		"events"
+		"cuisine"
+		"footer";
+
+		.header {
+			grid-area: header;
+			display: grid;
+
+			.headerimg {
+				grid-template-columns: auto;
+			}
+		}
+
+		.nav {
+			grid-area: nav;
+			display: grid;
+
+		}
+
+		.wildlife {
+			grid-area: wildlife;
+			display: grid;
+		}
+
+		.callout {
+			grid-area: callout;
+			display: grid;
+		}
+
+		.adventure {
+			grid-area: adventure;
+			display: grid;
+		}
+
+		.health {
+			grid-area: health;
+			display: grid;
+		}
+
+		.culture {
+			grid-area: culture;
+			display: grid;
+		}
+
+		.events {
+			grid-area: events;
+			display: grid;
+		}
+
+		.cuisine {
+			grid-area: cuisine;
+			display: grid;
+		}
+
+		.footer {
+			grid-area: footer;
+			display: grid;
+		}
+	}

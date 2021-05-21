@@ -1,0 +1,63 @@
+/* =============
+    Base
+============= */
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+main {
+  display: grid;
+  grid-template-areas: "header" "nav" "wildlife" "callout" "adventure" "health" "culture" "events" "cuisine" "footer";
+}
+main .header {
+  grid-area: header;
+  display: grid;
+}
+main .header .headerimg {
+  grid-template-columns: auto;
+}
+main .nav {
+  grid-area: nav;
+  display: grid;
+}
+main .wildlife {
+  grid-area: wildlife;
+  display: grid;
+}
+main .callout {
+  grid-area: callout;
+  display: grid;
+}
+main .adventure {
+  grid-area: adventure;
+  display: grid;
+}
+main .health {
+  grid-area: health;
+  display: grid;
+}
+main .culture {
+  grid-area: culture;
+  display: grid;
+}
+main .events {
+  grid-area: events;
+  display: grid;
+}
+main .cuisine {
+  grid-area: cuisine;
+  display: grid;
+}
+main .footer {
+  grid-area: footer;
+  display: grid;
+}
