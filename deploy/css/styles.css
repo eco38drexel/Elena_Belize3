@@ -477,6 +477,7 @@ p {
 }
 .nav .leopard {
   width: 130px;
+  height: 130px;
 }
 .nav .jeep {
   width: 130px;
@@ -525,4 +526,58 @@ p {
 
 .adventure {
   background-color: #BFDCEC;
+}
+.adventure form {
+  display: flex;
+  flex-direction: row;
+  width: 430px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 40px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.adventure form input {
+  flex-grow: 2;
+  border-radius: 40px;
+  border: none;
+}
+.adventure form button {
+  border: none;
+  background: white;
+  border-radius: 40px;
+  width: 30px;
+  color: black;
+}
+.adventure .container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.adventure .container .bottomleft {
+  position: absolute;
+  top: 400px;
+  left: 16px;
+}
+.adventure .hikingimg {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.adventure .beachimg {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.adventure .snorkelimg {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.adventure .ziplineimg {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
 }

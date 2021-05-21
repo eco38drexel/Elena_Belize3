@@ -1,3 +1,67 @@
 .adventure {
     background-color: $bg2;
+
+    
+    form {
+        display:flex;
+        flex-direction:row;
+        width: 430px;
+        height: 40px;
+        border:3px solid black;
+        border-radius: 40px;
+        margin-top: 50px;
+        margin-bottom: 35px;
+        margin-left: 500px;
+        margin-right: 500px;
+      
+      input {
+        flex-grow: 2;
+        border-radius: 40px;
+        border:none;
+      }
+      
+      button {
+        border: none;
+        background: white;
+        border-radius: 40px;
+        width: 30px;
+        color:black;
+      }
+    }
+
+    .container {
+        position: relative;
+        text-align: left;
+        color: white;
+
+        .bottomleft {
+            position: absolute;
+            top: 400px;
+            left: 16px;
+          }
+    }
+
+    .hikingimg {
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+    }
+
+    .beachimg {
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+    }
+
+    .snorkelimg {
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+    }
+
+    .ziplineimg {
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+    }
 }
