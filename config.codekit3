@@ -404,12 +404,20 @@
       "sC" : 3,
       "tS" : 0
     },
+<<<<<<< Updated upstream
     "\/design\/wireframe UI.sketch" : {
+=======
+    "\/design\/wireframe UI-1.sketch" : {
+>>>>>>> Stashed changes
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
+<<<<<<< Updated upstream
       "oAP" : "\/design\/wireframe UI.sketch",
+=======
+      "oAP" : "\/design\/wireframe UI-1.sketch",
+>>>>>>> Stashed changes
       "oF" : 0
     },
     "\/dev\/content\/_adventure.html" : {
@@ -483,14 +491,6 @@
       "oA" : 0,
       "oAP" : "\/dev\/content\/_health.html",
       "oF" : 1
-    },
-    "\/dev\/content\/_nav.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_nav.html",
-      "oF" : 0
     },
     "\/dev\/content\/_nav.kit" : {
       "cB" : 0,
@@ -627,6 +627,93 @@
       "pg" : 0,
       "sct" : 0
     },
+<<<<<<< Updated upstream
+=======
+    "\/dev\/scss\/content\/adventure.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/adventure.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/callout.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/callout.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/health.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/health.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/nav.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/nav.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/wildlife.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/wildlife.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+>>>>>>> Stashed changes
     "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,

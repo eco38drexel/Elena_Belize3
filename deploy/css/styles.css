@@ -365,6 +365,74 @@ ul li {
   list-style: none;
 }
 
+<<<<<<< Updated upstream
+=======
+main {
+  display: grid;
+  grid-template-areas: "header" "nav" "wildlife" "callout" "adventure" "health" "culture" "events" "cuisine" "footer";
+}
+main .header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1440px;
+}
+main .header .headerimg {
+  grid-template-columns: auto;
+}
+main .nav {
+  grid-area: nav;
+  display: grid;
+}
+main .wildlife {
+  grid-area: wildlife;
+  display: grid;
+}
+main .callout {
+  grid-area: callout;
+  display: grid;
+  grid-template-columns: 1440px;
+}
+main .adventure {
+  grid-area: adventure;
+  display: grid;
+}
+main .adventure .image-gallery .images {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 35px;
+  justify-content: center;
+}
+main .adventure .four-block-img .imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  justify-content: center;
+}
+main .health {
+  grid-area: health;
+  display: grid;
+}
+main .health p {
+  grid-template-columns: 20px;
+}
+main .culture {
+  grid-area: culture;
+  display: grid;
+}
+main .events {
+  grid-area: events;
+  display: grid;
+}
+main .cuisine {
+  grid-area: cuisine;
+  display: grid;
+}
+main .footer {
+  grid-area: footer;
+  display: grid;
+}
+
+>>>>>>> Stashed changes
 /* =============
     Typography
 ============= */
@@ -388,3 +456,227 @@ p {
 .section-title {
   font-weight: 300;
 }
+<<<<<<< Updated upstream
+=======
+
+.header {
+  width: 100%;
+}
+.header .image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header .headerimg {
+  background-image: url(/deploy/img/header/headerbg.jpg) cover;
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+.header .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.header .container .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header .text {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 135px;
+  padding-bottom: 135px;
+}
+
+.nav {
+  background-color: #2E5C7D;
+}
+.nav h3 {
+  color: white;
+  text-decoration: none;
+}
+.nav .leopard {
+  width: 130px;
+  height: 130px;
+}
+.nav .jeep {
+  width: 130px;
+}
+.nav .drums {
+  width: 130px;
+}
+.nav .fire {
+  width: 130px;
+}
+.nav .lobster {
+  width: 130px;
+}
+
+.wildlife h2 {
+  padding-left: 285px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.wildlife .monkey {
+  padding-left: 235px;
+  padding-bottom: 30px;
+}
+.wildlife .toucan {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+.wildlife .firstp {
+  width: 575px;
+}
+.wildlife .secondp {
+  width: 830px;
+}
+
+.callout .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.callout .container .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.callout .cliff {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.adventure {
+  background-color: #BFDCEC;
+}
+.adventure form {
+  display: flex;
+  flex-direction: row;
+  width: 430px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 40px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.adventure form input {
+  flex-grow: 2;
+  border-radius: 40px;
+  border: none;
+}
+.adventure form button {
+  border: none;
+  background: white;
+  border-radius: 40px;
+  width: 30px;
+  color: black;
+}
+.adventure .container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.adventure .container .bottomleft {
+  position: absolute;
+  top: 400px;
+  left: 16px;
+}
+.adventure .hikingimg {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.adventure .beachimg {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.adventure .snorkelimg {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.adventure .ziplineimg {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.adventure .img1 .a-image1 {
+  background: url(/deploy/img/adventure/belizereef.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img2 .a-image2 {
+  background: url(/deploy/img/adventure/centralcoast.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img3 .a-image3 {
+  background: url(/deploy/img/adventure/northisland.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img4 .a-image4 {
+  background: url(/deploy/img/adventure/northernbelize.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img5 .a-image5 {
+  background: url(/deploy/img/adventure/southeastcoast.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img6 .a-image6 {
+  background: url(/deploy/img/adventure/southernbelize.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img7 .a-image7 {
+  background: url(/deploy/img/adventure/westernbelize.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img8 .a-image8 {
+  background: url(/deploy/img/adventure/more.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.health {
+  background-color: #245d83;
+  color: white;
+}
+.health .warning {
+  width: 130px;
+  padding-top: 15px;
+  padding-left: 100px;
+}
+.health .health-text {
+  width: 830px;
+  padding: 30px;
+}
+>>>>>>> Stashed changes

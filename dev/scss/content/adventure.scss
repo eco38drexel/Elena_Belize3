@@ -1,0 +1,156 @@
+.adventure {
+    background-color: $bg2;
+
+    
+    form {
+        display:flex;
+        flex-direction:row;
+        width: 430px;
+        height: 40px;
+        border:3px solid black;
+        border-radius: 40px;
+        margin-top: 50px;
+        margin-bottom: 35px;
+        margin-left: 500px;
+        margin-right: 500px;
+      
+      input {
+        flex-grow: 2;
+        border-radius: 40px;
+        border:none;
+      }
+      
+      button {
+        border: none;
+        background: white;
+        border-radius: 40px;
+        width: 30px;
+        color:black;
+      }
+    }
+
+    .container {
+        position: relative;
+        text-align: left;
+        color: white;
+
+        .bottomleft {
+            position: absolute;
+            top: 400px;
+            left: 16px;
+          }
+    }
+
+    .hikingimg {
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+    }
+
+    .beachimg {
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+    }
+
+    .snorkelimg {
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+    }
+
+    .ziplineimg {
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+    }
+
+    .img1 {
+
+      .a-image1 {
+        background: url(/deploy/img/adventure/belizereef.jpg) no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+      }
+    }
+
+    .img2 {
+
+      .a-image2 {
+        background: url(/deploy/img/adventure/centralcoast.jpg) no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+      }
+    }
+
+    .img3 {
+
+      .a-image3 {
+        background: url(/deploy/img/adventure/northisland.jpg) no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+      }
+    }
+
+    .img4 {
+
+      .a-image4 {
+        background: url(/deploy/img/adventure/northernbelize.jpg) no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+      }
+    }
+
+    .img5 {
+
+      .a-image5 {
+        background: url(/deploy/img/adventure/southeastcoast.jpg) no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+      }
+    }
+
+    .img6 {
+
+      .a-image6 {
+        background: url(/deploy/img/adventure/southernbelize.jpg) no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+      }
+    }
+
+    .img7 {
+
+      .a-image7 {
+        background: url(/deploy/img/adventure/westernbelize.jpg) no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+      }
+    }
+
+    .img8 {
+
+      .a-image8 {
+        background: url(/deploy/img/adventure/more.jpg) no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+      }
+    }
+
+}
