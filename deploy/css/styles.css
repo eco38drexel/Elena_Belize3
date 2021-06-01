@@ -372,6 +372,7 @@ main {
 main .header {
   grid-area: header;
   display: grid;
+  grid-template-columns: 1440px;
 }
 main .header .headerimg {
   grid-template-columns: auto;
@@ -387,14 +388,30 @@ main .wildlife {
 main .callout {
   grid-area: callout;
   display: grid;
+  grid-template-columns: 1440px;
 }
 main .adventure {
   grid-area: adventure;
   display: grid;
 }
+main .adventure .image-gallery .images {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 35px;
+  justify-content: center;
+}
+main .adventure .four-block-img .imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  justify-content: center;
+}
 main .health {
   grid-area: health;
   display: grid;
+}
+main .health p {
+  grid-template-columns: 20px;
 }
 main .culture {
   grid-area: culture;
@@ -437,6 +454,9 @@ p {
   font-weight: 300;
 }
 
+/* =============
+    Header
+============= */
 .header {
   width: 100%;
 }
@@ -506,12 +526,13 @@ p {
   height: 240px;
   object-fit: cover;
 }
-
-.callout .container {
-  position: relative;
-  text-align: center;
-  color: white;
+.wildlife .firstp {
+  width: 575px;
 }
+.wildlife .secondp {
+  width: 830px;
+}
+
 .callout .container .centered {
   position: absolute;
   top: 50%;
@@ -580,4 +601,74 @@ p {
   height: 500px;
   width: 500px;
   object-fit: cover;
+}
+.adventure .img1 .a-image1 {
+  background: url(/deploy/img/adventure/belizereef.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img2 .a-image2 {
+  background: url(/deploy/img/adventure/centralcoast.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img3 .a-image3 {
+  background: url(/deploy/img/adventure/northisland.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img4 .a-image4 {
+  background: url(/deploy/img/adventure/northernbelize.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img5 .a-image5 {
+  background: url(/deploy/img/adventure/southeastcoast.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img6 .a-image6 {
+  background: url(/deploy/img/adventure/southernbelize.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img7 .a-image7 {
+  background: url(/deploy/img/adventure/westernbelize.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.adventure .img8 .a-image8 {
+  background: url(/deploy/img/adventure/more.jpg) no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.health {
+  background-color: #245d83;
+  color: white;
+}
+.health .warning {
+  width: 130px;
+  padding-top: 15px;
+  padding-left: 100px;
+}
+.health .health-text {
+  width: 830px;
+  padding: 30px;
 }

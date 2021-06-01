@@ -14,7 +14,6 @@ ul {
 		list-style: none;
 	}
 }
-
 	main {
 		display: grid;
 		grid-template-areas: 
@@ -29,9 +28,25 @@ ul {
 		"cuisine"
 		"footer";
 
+		@mixin md {
+			grid-template-areas: 
+			"header header header header header header header header"
+			"nav nav nav nav nav nav nav nav"
+			"wildlife wildlife wildlife wildlife wildlife wildlife wildlide wildlife"
+			"callout callout callout callout callout callout callout callout"
+			"adventure adventure adventure adventure adventure adventure adventure adventure"
+			"health health health health health health health health"
+			"culture culture culture culture culture culture culture culture"
+			"events events events events events events events events"
+			"cuisine cuisine cuisine cuisine cuisine cuisine cuisine cuisine"
+			"footer footer footer footer footer footer footer footer";
+		}
+
 		.header {
 			grid-area: header;
 			display: grid;
+
+			grid-template-columns: 1440px;
 
 			.headerimg {
 				grid-template-columns: auto;
@@ -41,7 +56,6 @@ ul {
 		.nav {
 			grid-area: nav;
 			display: grid;
-
 		}
 
 		.wildlife {
@@ -52,16 +66,40 @@ ul {
 		.callout {
 			grid-area: callout;
 			display: grid;
+
+			grid-template-columns: 1440px;
 		}
 
 		.adventure {
 			grid-area: adventure;
 			display: grid;
+
+			.image-gallery {
+				.images {
+				  display: grid;
+				  grid-template-columns: repeat(4, 200px);
+				  grid-template-rows: repeat(2, 200px);
+				  grid-gap: 35px;
+				  justify-content: center;
+				}
+			}
+
+			.four-block-img {
+				.imgs {
+					display: grid;
+					grid-template-columns: repeat(2, 500px);
+					justify-content: center;
+				}
+			}
 		}
 
 		.health {
 			grid-area: health;
 			display: grid;
+
+			p {
+				grid-template-columns: 20px;
+			}
 		}
 
 		.culture {
