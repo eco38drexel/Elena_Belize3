@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/.gitattributes" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitattributes",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -404,20 +412,12 @@
       "sC" : 3,
       "tS" : 0
     },
-<<<<<<< Updated upstream
-    "\/design\/wireframe UI.sketch" : {
-=======
     "\/design\/wireframe UI-1.sketch" : {
->>>>>>> Stashed changes
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-<<<<<<< Updated upstream
-      "oAP" : "\/design\/wireframe UI.sketch",
-=======
       "oAP" : "\/design\/wireframe UI-1.sketch",
->>>>>>> Stashed changes
       "oF" : 0
     },
     "\/dev\/content\/_adventure.html" : {
@@ -432,7 +432,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/_adventure.html",
       "oF" : 1
     },
@@ -440,7 +440,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/_callout.html",
       "oF" : 1
     },
@@ -448,7 +448,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/_cuisine.html",
       "oF" : 1
     },
@@ -456,7 +456,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/_culture.html",
       "oF" : 1
     },
@@ -464,7 +464,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/_events.html",
       "oF" : 1
     },
@@ -472,7 +472,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/_footer.html",
       "oF" : 1
     },
@@ -480,7 +480,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/_header.html",
       "oF" : 1
     },
@@ -488,7 +488,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/_health.html",
       "oF" : 1
     },
@@ -496,15 +496,23 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/_nav.html",
       "oF" : 1
+    },
+    "\/dev\/content\/_wildlife.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_wildlife.html",
+      "oF" : 0
     },
     "\/dev\/content\/_wildlife.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/_wildlife.html",
       "oF" : 1
     },
@@ -543,6 +551,18 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/scss\/base\/_base.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/base\/_base-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -550,7 +570,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_base.css",
       "oF" : 1,
       "oS" : 0,
@@ -564,7 +584,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_normalize.css",
       "oF" : 1,
       "oS" : 0,
@@ -578,7 +598,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_typography.css",
       "oF" : 1,
       "oS" : 0,
@@ -592,7 +612,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_buttons.css",
       "oF" : 1,
       "oS" : 0,
@@ -606,7 +626,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_forms.css",
       "oF" : 1,
       "oS" : 0,
@@ -620,15 +640,13 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-<<<<<<< Updated upstream
-=======
     "\/dev\/scss\/content\/adventure.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -652,7 +670,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/content\/callout.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -666,7 +684,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/content\/header.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -694,7 +712,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/content\/nav.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -713,7 +731,6 @@
       "pg" : 0,
       "sct" : 0
     },
->>>>>>> Stashed changes
     "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -721,12 +738,24 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/scss\/helpers\/_variables.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/helpers\/_variables-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/helpers\/_variables.scss" : {
       "aP" : 0,
@@ -735,7 +764,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/helpers\/_variables.css",
       "oF" : 1,
       "oS" : 0,
@@ -749,7 +778,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_footer.css",
       "oF" : 1,
       "oS" : 0,
@@ -763,7 +792,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
       "oF" : 1,
       "oS" : 0,
@@ -783,6 +812,25 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -793,7 +841,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 638898965.76008201,
-    "displayValue" : "Elena_Belize1",
+    "displayValue" : "Elena_Belize3",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0

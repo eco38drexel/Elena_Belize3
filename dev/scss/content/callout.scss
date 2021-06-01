@@ -1,0 +1,18 @@
+.callout {
+
+    .container {
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+          .callout .cliff {
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+          }
+          
+    }
+}
