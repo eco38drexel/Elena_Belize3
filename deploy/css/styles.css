@@ -564,13 +564,21 @@ p {
   padding-left: 10px;
 }
 
-.callout .container .centered {
-  position: absolute;
+.callout .callouttext {
+  margin-bottom: -5px;
+}
+.callout .callouttext .callout-centered {
+  position: relative;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 500px;
+  color: white;
+}
+.callout .image {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .callout .cliff {
+  background-image: url(/deploy/img/callout/bigadventure.jpg) cover;
   height: 300px;
   width: 100%;
   object-fit: cover;
