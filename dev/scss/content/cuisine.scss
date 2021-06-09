@@ -1,0 +1,47 @@
+.cuisine {
+
+    h2 {
+        padding-left: 285px;
+        padding-top: 150px;
+        padding-bottom: 60px;
+    }
+
+    .foods {
+        width: 400px;
+        line-height: 25px;
+    }
+
+    .meals {
+        width: 810px;
+        padding-left: 300px;
+        padding-bottom: 145px;
+        line-height: 25px;
+    }
+
+    .grill {
+        height: 560px;
+        width: 400px;
+        object-fit: cover;
+    }
+
+    .riceimg {
+        height: 205px;
+        width: 405px;
+        object-fit: cover;
+        padding-top: 130px;
+    }
+
+    .cuisine-info {
+        display: flex;
+        padding-left: 300px;
+        padding-bottom: 25px;
+    }
+
+    span {
+        padding-left: 20px;
+    }
+
+    .bottom-p {
+        padding-top: 20px;
+    }
+}
