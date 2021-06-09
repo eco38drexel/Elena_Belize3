@@ -531,6 +531,37 @@ p {
 }
 .wildlife .secondp {
   width: 830px;
+  padding-left: 50%;
+  padding-top: 35px;
+  padding-bottom: 140px;
+}
+.wildlife .aligned {
+  display: flex;
+}
+.wildlife span {
+  padding-top: 0px;
+  padding-left: 30px;
+}
+.wildlife .mammals {
+  padding-left: 160px;
+  padding-top: 50px;
+}
+.wildlife .mammals h4 {
+  padding-left: 55px;
+  padding-bottom: 15px;
+}
+.wildlife .mammals h5 {
+  padding-left: 98px;
+}
+.wildlife .mammals .fa-chevron-left {
+  position: absolute;
+  padding-top: 110px;
+  margin-left: -20px;
+}
+.wildlife .mammals .fa-chevron-right {
+  position: absolute;
+  padding-top: 110px;
+  padding-left: 10px;
 }
 
 .callout .container .centered {
