@@ -587,14 +587,19 @@ p {
 .adventure {
   background-color: #BFDCEC;
 }
+.adventure h2 {
+  padding-top: 150px;
+  padding-left: 255px;
+}
 .adventure form {
   display: flex;
   flex-direction: row;
   width: 430px;
   height: 40px;
   border: 3px solid black;
+  background-color: white;
   border-radius: 40px;
-  margin-top: 50px;
+  margin-top: 55px;
   margin-bottom: 35px;
   margin-left: 500px;
   margin-right: 500px;
@@ -606,9 +611,8 @@ p {
 }
 .adventure form button {
   border: none;
-  background: white;
-  border-radius: 40px;
-  width: 30px;
+  background-color: transparent;
+  width: 40px;
   color: black;
 }
 .adventure .container {
@@ -617,9 +621,9 @@ p {
   color: white;
 }
 .adventure .container .bottomleft {
-  position: absolute;
-  top: 400px;
-  left: 16px;
+  position: relative;
+  top: 100px;
+  left: -200px;
 }
 .adventure .hikingimg {
   height: 500px;
@@ -632,11 +636,13 @@ p {
   object-fit: cover;
 }
 .adventure .snorkelimg {
+  margin-top: -181px;
   height: 500px;
   width: 500px;
   object-fit: cover;
 }
 .adventure .ziplineimg {
+  margin-top: -181px;
   height: 500px;
   width: 500px;
   object-fit: cover;
@@ -710,4 +716,44 @@ p {
 .health .health-text {
   width: 830px;
   padding: 30px;
+}
+
+.culture h2 {
+  padding-left: 285px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.culture .shells {
+  width: 360px;
+  height: 480px;
+  object-fit: cover;
+}
+.culture .block-img {
+  padding-left: 220px;
+  padding-bottom: 480px;
+}
+.culture .mayan {
+  width: 490px;
+  height: 230px;
+  object-fit: cover;
+  padding-right: 20px;
+}
+.culture .boat {
+  width: 490px;
+  height: 230px;
+  object-fit: cover;
+}
+.culture .culture-info {
+  display: flex;
+  line-height: 25px;
+}
+.culture .culture-info .top {
+  padding-bottom: 30px;
+  width: 500px;
+  padding-left: 310px;
+}
+.culture span {
+  padding-top: 0px;
+  padding-left: 55px;
+  padding-bottom: 40px;
 }

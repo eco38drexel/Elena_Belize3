@@ -420,14 +420,6 @@
       "oAP" : "\/design\/wireframe UI-1.sketch",
       "oF" : 0
     },
-    "\/dev\/content\/_adventure.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_adventure.html",
-      "oF" : 0
-    },
     "\/dev\/content\/_adventure.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -499,14 +491,6 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/_nav.html",
       "oF" : 1
-    },
-    "\/dev\/content\/_wildlife.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_wildlife.html",
-      "oF" : 0
     },
     "\/dev\/content\/_wildlife.kit" : {
       "cB" : 0,
@@ -671,6 +655,20 @@
       "oA" : 1,
       "oAP" : "\/dev\/scss\/content\/callout.css",
       "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/culture.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/culture.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
