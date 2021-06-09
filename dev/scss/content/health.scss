@@ -3,14 +3,29 @@
     background-color: #245d83;
     color: white;
 
+    h4 {
+        padding-bottom: 20px;
+    }
+
     .warning {
         width: 130px;
         padding-top: 15px;
-        padding-left: 100px;
+        padding-left: 130px;
     }
 
     .health-text {
         width: 830px;
-        padding: 30px;
+        padding-left: 280px;
+        line-height: 25px;
+    }
+
+    button {
+        border: none;
+        background-color: $bg2;
+        padding: 15px;
+        border-radius: 8px;
+        margin-left: 610px;
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
 }

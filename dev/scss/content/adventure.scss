@@ -1,7 +1,7 @@
 .adventure {
     background-color: $bg2;
 
-    h2 {
+    .head {
       padding-top: 150px;
       padding-left: 255px;
     }
@@ -18,6 +18,7 @@
         margin-top: 55px;
         margin-left: 500px;
         margin-right: 500px;
+        margin-bottom: 35px;
       
       input {
         flex-grow: 2;
@@ -35,40 +36,41 @@
 
     .container {
         position: relative;
-        text-align: left;
         color: white;
 
         .bottomleft {
-            position: relative;
-            top: 100px;
-            left: -200px;
+            position: absolute;
+            bottom: 10px;
+            left: 40px;
           }
     }
 
     .hikingimg {
+        background-image: url(/deploy/img/adventure/hiking.jpg);
         height: 500px;
         width: 500px;
-        object-fit: cover;
+        background-size: cover;
     }
 
     .beachimg {
+        background-image: url(/deploy/img/adventure/beachlounging.jpg);
         height: 500px;
         width: 500px;
-        object-fit: cover;
+        background-size: cover;
     }
 
     .snorkelimg {
-        margin-top: -181px;
+        background-image: url(/deploy/img/adventure/snorkeling.jpg);
         height: 500px;
         width: 500px;
-        object-fit: cover;
+        background-size: cover;
     }
 
     .ziplineimg {
-        margin-top: -181px;
+      background-image: url(/deploy/img/adventure/ziplining.jpg);
         height: 500px;
         width: 500px;
-        object-fit: cover;
+        background-size: cover;
     }
 
     .img1 {
@@ -159,4 +161,40 @@
       }
     }
 
+    .more {
+      display: flex;
+      padding-left: 620px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+
+      .fas {
+        padding-left: 10px;
+        padding-top: 5px;
+      }
+    }
+
+    .insta {
+      display: flex;
+      padding-left: 600px;
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+
+    .instagram {
+      width: 60px;
+      height: 60px;
+    }
+
+    .agent {
+
+      button {
+        border: none;
+        background-color: $deepseablue;
+        color: white;
+        padding: 15px;
+        border-radius: 8px;
+        margin-left: 610px;
+        margin-bottom: 130px;
+      }
+    }
 }

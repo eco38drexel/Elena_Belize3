@@ -289,15 +289,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/health\/warning.jpg" : {
-      "ft" : 16384,
-      "iS" : 39717,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/deploy\/img\/health\/warning.jpg",
-      "oF" : 1,
+    "\/deploy\/img\/health\/warning.png" : {
+      "ft" : 32768,
+      "iS" : 21843,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/health\/warning.png",
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -687,7 +687,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/content\/header.scss" : {
+    "\/dev\/scss\/content\/events.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -695,8 +695,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/content\/header.css",
-      "oF" : 1,
+      "oAP" : "\/dev\/scss\/content\/events.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0

@@ -410,9 +410,6 @@ main .health {
   grid-area: health;
   display: grid;
 }
-main .health p {
-  grid-template-columns: 20px;
-}
 main .culture {
   grid-area: culture;
   display: grid;
@@ -488,6 +485,15 @@ p {
   padding-bottom: 135px;
 }
 
+/* =============
+    Footer
+============= */
+.footer {
+  color: white;
+  background-color: #3D6B0B;
+  padding: 30px;
+}
+
 .nav {
   background-color: #2E5C7D;
 }
@@ -531,7 +537,7 @@ p {
 }
 .wildlife .secondp {
   width: 830px;
-  padding-left: 50%;
+  padding-left: 320px;
   padding-top: 35px;
   padding-bottom: 140px;
 }
@@ -587,7 +593,7 @@ p {
 .adventure {
   background-color: #BFDCEC;
 }
-.adventure h2 {
+.adventure .head {
   padding-top: 150px;
   padding-left: 255px;
 }
@@ -602,6 +608,7 @@ p {
   margin-top: 55px;
   margin-left: 500px;
   margin-right: 500px;
+  margin-bottom: 35px;
 }
 .adventure form input {
   flex-grow: 2;
@@ -616,35 +623,36 @@ p {
 }
 .adventure .container {
   position: relative;
-  text-align: left;
   color: white;
 }
 .adventure .container .bottomleft {
-  position: relative;
-  top: 100px;
-  left: -200px;
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
 }
 .adventure .hikingimg {
+  background-image: url(/deploy/img/adventure/hiking.jpg);
   height: 500px;
   width: 500px;
-  object-fit: cover;
+  background-size: cover;
 }
 .adventure .beachimg {
+  background-image: url(/deploy/img/adventure/beachlounging.jpg);
   height: 500px;
   width: 500px;
-  object-fit: cover;
+  background-size: cover;
 }
 .adventure .snorkelimg {
-  margin-top: -181px;
+  background-image: url(/deploy/img/adventure/snorkeling.jpg);
   height: 500px;
   width: 500px;
-  object-fit: cover;
+  background-size: cover;
 }
 .adventure .ziplineimg {
-  margin-top: -181px;
+  background-image: url(/deploy/img/adventure/ziplining.jpg);
   height: 500px;
   width: 500px;
-  object-fit: cover;
+  background-size: cover;
 }
 .adventure .img1 .a-image1 {
   background: url(/deploy/img/adventure/belizereef.jpg) no-repeat;
@@ -702,19 +710,61 @@ p {
   height: 180px;
   object-fit: cover;
 }
+.adventure .more {
+  display: flex;
+  padding-left: 620px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.adventure .more .fas {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.adventure .insta {
+  display: flex;
+  padding-left: 600px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.adventure .instagram {
+  width: 60px;
+  height: 60px;
+}
+.adventure .agent button {
+  border: none;
+  background-color: #2E5C7D;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-left: 610px;
+  margin-bottom: 130px;
+}
 
 .health {
   background-color: #245d83;
   color: white;
 }
+.health h4 {
+  padding-bottom: 20px;
+}
 .health .warning {
   width: 130px;
   padding-top: 15px;
-  padding-left: 100px;
+  padding-left: 130px;
 }
 .health .health-text {
   width: 830px;
-  padding: 30px;
+  padding-left: 280px;
+  line-height: 25px;
+}
+.health button {
+  border: none;
+  background-color: #BFDCEC;
+  padding: 15px;
+  border-radius: 8px;
+  margin-left: 610px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .culture h2 {
@@ -729,7 +779,7 @@ p {
 }
 .culture .block-img {
   padding-left: 220px;
-  padding-bottom: 480px;
+  padding-bottom: 160px;
 }
 .culture .mayan {
   width: 490px;
@@ -747,7 +797,6 @@ p {
   line-height: 25px;
 }
 .culture .culture-info .top {
-  padding-bottom: 30px;
   width: 500px;
   padding-left: 310px;
 }
@@ -793,4 +842,55 @@ p {
 }
 .cuisine .bottom-p {
   padding-top: 20px;
+}
+
+.events .leavesbg {
+  background-image: url(/deploy/img/events/eventsbg.jpg);
+  background-size: cover;
+  height: 810px;
+  width: 1440px;
+  background-size: cover;
+}
+.events .container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.events .container .title {
+  position: absolute;
+  top: 75px;
+  left: 250px;
+}
+.events .container .articles {
+  position: absolute;
+  top: 100px;
+  color: black;
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+.events .container .articles p {
+  padding-bottom: 110px;
+  padding-top: 30px;
+  line-height: 25px;
+}
+.events .articles {
+  width: 300px;
+  background-color: white;
+}
+.events button {
+  border: none;
+  background-color: transparent;
+  padding-left: 80px;
+}
+.events .e-1 {
+  margin-left: 90px;
+}
+.events .e-2 {
+  margin-left: 545px;
+}
+.events .e-3 {
+  margin-left: 1000px;
 }

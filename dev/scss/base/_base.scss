@@ -96,10 +96,6 @@ ul {
 		.health {
 			grid-area: health;
 			display: grid;
-
-			p {
-				grid-template-columns: 20px;
-			}
 		}
 
 		.culture {
