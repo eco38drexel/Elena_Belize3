@@ -2,8 +2,8 @@
 
     h2 {
         padding-left: 285px;
-        padding-top: 150px;
-        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-bottom: 20px;
     }
 
     .monkey {
@@ -19,13 +19,14 @@
 
     .firstp {
         width: 575px;
+        line-height: 25px;
     }
 
     .secondp {
         width: 830px;
         padding-left: 320px;
-        padding-top: 35px;
-        padding-bottom: 140px;
+        padding-top: 10px;
+        line-height: 25px;
     }
 
     .aligned {
@@ -48,6 +49,8 @@
 
         h5 {
             padding-left: 98px;
+            font-weight: 400;
+            margin-top: 5px;
         }
         
         .fa-chevron-left {

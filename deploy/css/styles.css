@@ -434,10 +434,35 @@ body {
   font-family: "Jost", sans-serif;
 }
 
-h1,
-h2,
-h3,
+h1 {
+  font-family: "Sigmar One", sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Sigmar One", sans-serif;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 72px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
 h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -483,6 +508,7 @@ p {
   padding-right: 300px;
   padding-top: 135px;
   padding-bottom: 135px;
+  line-height: 25px;
 }
 
 /* =============
@@ -493,11 +519,14 @@ p {
   background-color: #3D6B0B;
   padding: 30px;
 }
+.footer h4 {
+  font-weight: 400;
+}
 
 .nav {
   background-color: #2E5C7D;
 }
-.nav h3 {
+.nav h4 {
   color: white;
   text-decoration: none;
 }
@@ -520,8 +549,8 @@ p {
 
 .wildlife h2 {
   padding-left: 285px;
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 .wildlife .monkey {
   padding-left: 235px;
@@ -534,12 +563,13 @@ p {
 }
 .wildlife .firstp {
   width: 575px;
+  line-height: 25px;
 }
 .wildlife .secondp {
   width: 830px;
   padding-left: 320px;
-  padding-top: 35px;
-  padding-bottom: 140px;
+  padding-top: 10px;
+  line-height: 25px;
 }
 .wildlife .aligned {
   display: flex;
@@ -558,6 +588,8 @@ p {
 }
 .wildlife .mammals h5 {
   padding-left: 98px;
+  font-weight: 400;
+  margin-top: 5px;
 }
 .wildlife .mammals .fa-chevron-left {
   position: absolute;
@@ -576,7 +608,7 @@ p {
 .callout .callouttext .callout-centered {
   position: relative;
   top: 50%;
-  left: 500px;
+  padding-left: 180px;
   color: white;
 }
 .callout .image {
@@ -594,7 +626,7 @@ p {
   background-color: #BFDCEC;
 }
 .adventure .head {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 255px;
 }
 .adventure form {
@@ -605,7 +637,6 @@ p {
   border: 3px solid black;
   background-color: white;
   border-radius: 40px;
-  margin-top: 55px;
   margin-left: 500px;
   margin-right: 500px;
   margin-bottom: 35px;
@@ -627,8 +658,9 @@ p {
 }
 .adventure .container .bottomleft {
   position: absolute;
-  bottom: 10px;
-  left: 40px;
+  bottom: 0px;
+  left: 30px;
+  line-height: 60px;
 }
 .adventure .hikingimg {
   background-image: url(/deploy/img/adventure/hiking.jpg);
@@ -712,23 +744,22 @@ p {
 }
 .adventure .more {
   display: flex;
-  padding-left: 620px;
+  padding-left: 600px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 .adventure .more .fas {
   padding-left: 10px;
-  padding-top: 5px;
+  padding-top: 13px;
 }
 .adventure .insta {
   display: flex;
-  padding-left: 600px;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-left: 500px;
 }
-.adventure .instagram {
-  width: 60px;
-  height: 60px;
+.adventure .insta .fab {
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 .adventure .agent button {
   border: none;
@@ -739,6 +770,16 @@ p {
   margin-left: 610px;
   margin-bottom: 130px;
 }
+.adventure h6 {
+  font-size: 48px;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.adventure h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
 
 .health {
   background-color: #245d83;
@@ -746,6 +787,9 @@ p {
 }
 .health h4 {
   padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: italic;
 }
 .health .warning {
   width: 130px;
@@ -762,15 +806,15 @@ p {
   background-color: #BFDCEC;
   padding: 15px;
   border-radius: 8px;
-  margin-left: 610px;
+  margin-left: 595px;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
 .culture h2 {
-  padding-left: 285px;
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-left: 265px;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 .culture .shells {
   width: 360px;
@@ -807,9 +851,9 @@ p {
 }
 
 .cuisine h2 {
-  padding-left: 285px;
-  padding-top: 150px;
-  padding-bottom: 60px;
+  padding-left: 250px;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 .cuisine .foods {
   width: 400px;
@@ -858,8 +902,8 @@ p {
 }
 .events .container .title {
   position: absolute;
-  top: 75px;
-  left: 250px;
+  top: 30px;
+  left: 230px;
 }
 .events .container .articles {
   position: absolute;
@@ -883,7 +927,10 @@ p {
 .events button {
   border: none;
   background-color: transparent;
-  padding-left: 80px;
+  padding-left: 70px;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: italic;
 }
 .events .e-1 {
   margin-left: 90px;
@@ -893,4 +940,11 @@ p {
 }
 .events .e-3 {
   margin-left: 1000px;
+}
+.events h4 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
 }

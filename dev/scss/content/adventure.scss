@@ -2,7 +2,7 @@
     background-color: $bg2;
 
     .head {
-      padding-top: 150px;
+      padding-top: 100px;
       padding-left: 255px;
     }
 
@@ -15,7 +15,6 @@
         border:3px solid black;
         background-color: white;
         border-radius: 40px;
-        margin-top: 55px;
         margin-left: 500px;
         margin-right: 500px;
         margin-bottom: 35px;
@@ -40,8 +39,9 @@
 
         .bottomleft {
             position: absolute;
-            bottom: 10px;
-            left: 40px;
+            bottom: 0px;
+            left: 30px;
+            line-height: 60px;
           }
     }
 
@@ -163,26 +163,25 @@
 
     .more {
       display: flex;
-      padding-left: 620px;
+      padding-left: 600px;
       padding-top: 25px;
       padding-bottom: 25px;
 
       .fas {
         padding-left: 10px;
-        padding-top: 5px;
+        padding-top: 13px;
       }
     }
 
     .insta {
       display: flex;
-      padding-left: 600px;
-      padding-top: 50px;
-      padding-bottom: 30px;
-    }
+      padding-left: 500px;
 
-    .instagram {
-      width: 60px;
-      height: 60px;
+      .fab {
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 20px;
+      }
     }
 
     .agent {
@@ -196,5 +195,17 @@
         margin-left: 610px;
         margin-bottom: 130px;
       }
+    }
+
+    h6 {
+      font-size: 48px;
+      font-weight: 400;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    h4 {
+      font-size: 30px;
+      font-weight: 400;
     }
 }
