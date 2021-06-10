@@ -1,0 +1,53 @@
+/* =============
+    Navigation
+============= */
+
+
+#nav-container {
+    background-color: $deepseablue;
+    padding-left: 330px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .nav-btns {
+        transition: 0.25s;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        font-style: italic;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .leopard {
+        width: 130px;
+        padding-right: 30px;
+    }
+    
+    .jeep {
+        width: 130px;
+        padding-right: 30px;
+    }
+    
+    .drums {
+        width: 130px;
+        padding-right: 30px;
+    }
+    
+    .fire {
+        width: 130px;
+        padding-right: 30px;
+    }
+    
+    .lobster {
+        width: 130px;
+    }
+    
+    .navstyle {
+        display: flex;
+    }
+}
+
+
+

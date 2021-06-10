@@ -381,6 +381,9 @@ main .nav {
   grid-area: nav;
   display: grid;
 }
+main .nav .traveling {
+  display: grid;
+}
 main .wildlife {
   grid-area: wildlife;
   display: grid;
@@ -523,28 +526,46 @@ p {
   font-weight: 400;
 }
 
-.nav {
+/* =============
+    Navigation
+============= */
+#nav-container {
   background-color: #2E5C7D;
+  padding-left: 330px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.nav h4 {
+#nav-container .nav-btns {
+  transition: 0.25s;
   color: white;
   text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  padding-top: 20px;
+  padding-left: 30px;
 }
-.nav .leopard {
+#nav-container .leopard {
   width: 130px;
-  height: 130px;
+  padding-right: 30px;
 }
-.nav .jeep {
+#nav-container .jeep {
+  width: 130px;
+  padding-right: 30px;
+}
+#nav-container .drums {
+  width: 130px;
+  padding-right: 30px;
+}
+#nav-container .fire {
+  width: 130px;
+  padding-right: 30px;
+}
+#nav-container .lobster {
   width: 130px;
 }
-.nav .drums {
-  width: 130px;
-}
-.nav .fire {
-  width: 130px;
-}
-.nav .lobster {
-  width: 130px;
+#nav-container .navstyle {
+  display: flex;
 }
 
 .wildlife h2 {
