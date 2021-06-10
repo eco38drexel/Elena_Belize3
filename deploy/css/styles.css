@@ -635,6 +635,7 @@ p {
 .wildlife .firstp {
   width: 575px;
   line-height: 25px;
+  padding-left: 40px;
 }
 .wildlife .secondp {
   width: 830px;
@@ -929,6 +930,7 @@ p {
 .cuisine .foods {
   width: 400px;
   line-height: 25px;
+  padding-left: 30px;
 }
 .cuisine .meals {
   width: 810px;
@@ -946,6 +948,7 @@ p {
   width: 405px;
   object-fit: cover;
   padding-top: 130px;
+  padding-left: 30px;
 }
 .cuisine .cuisine-info {
   display: flex;

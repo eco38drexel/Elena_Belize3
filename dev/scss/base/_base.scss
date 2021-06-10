@@ -28,20 +28,6 @@ ul {
 		"cuisine"
 		"footer";
 
-		@mixin md {
-			grid-template-areas: 
-			"header header header header header header header header"
-			"nav nav nav nav nav nav nav nav"
-			"wildlife wildlife wildlife wildlife wildlife wildlife wildlide wildlife"
-			"callout callout callout callout callout callout callout callout"
-			"adventure adventure adventure adventure adventure adventure adventure adventure"
-			"health health health health health health health health"
-			"culture culture culture culture culture culture culture culture"
-			"events events events events events events events events"
-			"cuisine cuisine cuisine cuisine cuisine cuisine cuisine cuisine"
-			"footer footer footer footer footer footer footer footer";
-		}
-
 		.header {
 			grid-area: header;
 			display: grid;
