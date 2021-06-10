@@ -46,7 +46,7 @@ ul {
 			grid-area: header;
 			display: grid;
 
-			grid-template-columns: 1440px;
+			
 
 			.headerimg {
 				grid-template-columns: auto;
@@ -120,5 +120,42 @@ ul {
 		.footer {
 			grid-area: footer;
 			display: grid;
+
+			.left-info {
+				display: grid;
+				grid-template-columns: 150px;
+			}
+
+			.right-info {
+				display: grid;
+				grid-template-columns: 118px 190px;
+				padding-top: 10px;
+				padding-bottom: 5px;
+			}
+
+			.right-info-b {
+				display: grid;
+				grid-template-columns: 100px 110px 110px;
+			}
+	
+			@include lg {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 20px;
+				grid-template-areas: 
+				"contact cw";
+	
+				.contact {
+					margin: auto;
+					margin-top: 20px;
+				}
+	
+				.cw {
+					margin: auto;
+					margin-top: 20px;
+					text-align: right;
+					
+				}
+			}
 		}
 	}
